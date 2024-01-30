@@ -35,6 +35,10 @@ app.get('/koulutus', (req, res) => {
   res.render('koulutus')
 })
 
+app.get('/portfolio', (req, res) => {
+  res.render('portfolio')
+})
+
 
 
  
